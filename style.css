@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: blueviolet;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+}
+
+.nav_menu {
+  display: flex;
+  padding: 2rem 3.5rem;
+}
+
+.container {
+  display: flex;
+  list-style: none;
+  margin: auto;
+}
+
+.container li a {
+  text-decoration: none;
+  color: white;
+}
+
+.masthead {
+  background-image: url("home-bg.jpg");
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
